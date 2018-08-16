@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sololearn", "sololearn\sololearn.csproj", "{FD565E8E-5ED1-4C09-86BA-5C61CC7688FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD565E8E-5ED1-4C09-86BA-5C61CC7688FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD565E8E-5ED1-4C09-86BA-5C61CC7688FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD565E8E-5ED1-4C09-86BA-5C61CC7688FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD565E8E-5ED1-4C09-86BA-5C61CC7688FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {121102B1-C306-4AC0-94F8-2E5DF14F191B}
+	EndGlobalSection
+EndGlobal

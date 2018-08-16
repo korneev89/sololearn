@@ -1,0 +1,291 @@
+﻿* {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.code {
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: rgb(88, 157, 50);
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	display: block;
+	white-space: pre-wrap;
+}
+
+.wrapper {
+	margin-top: 25px;
+	margin-right: auto;
+	margin-bottom: 25px;
+	margin-left: auto;
+	width: 1000px;
+	position: relative;
+}
+
+	.wrapper::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+.textContentContainer {
+	width: 700px;
+	background-color: rgb(255, 255, 255);
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+#textContent {
+	word-wrap: break-word;
+}
+
+h1 {
+	font-size: 2.4em;
+	color: rgb(0, 0, 0);
+}
+
+h1 {
+	display: inline-block;
+	font-size: 22px;
+}
+
+.tooltip {
+	position: relative;
+	cursor: pointer;
+	color: rgb(54, 171, 203);
+	white-space: normal;
+}
+
+.codeContainer {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+}
+
+.codeBlock {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: rgb(221, 221, 221);
+	border-right-color: rgb(221, 221, 221);
+	border-bottom-color: rgb(221, 221, 221);
+	border-left-color: rgb(221, 221, 221);
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	background-image: initial;
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: rgb(236, 240, 241);
+	display: block;
+}
+
+a {
+	outline-color: initial;
+	outline-style: none;
+	outline-width: initial;
+}
+
+.material {
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.materialResponse {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+}
+
+.runCode {
+	float: right;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: rgb(100, 221, 23);
+	color: rgb(255, 255, 255);
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-decoration-line: none;
+	text-decoration-style: initial;
+	text-decoration-color: initial;
+	font-weight: bold;
+}
+
+.noteBlock {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: rgb(221, 221, 221);
+	border-right-color: rgb(221, 221, 221);
+	border-bottom-color: rgb(221, 221, 221);
+	border-left-color: rgb(221, 221, 221);
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	background-image: initial;
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: rgb(238, 234, 135);
+	display: block;
+}
+
+.note {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: rgb(201, 197, 76);
+	display: block;
+}
+
+.codeBlock .tooltip, .noteBlock .tooltip {
+	color: rgb(0, 0, 0);
+	text-decoration-line: underline;
+	text-decoration-style: initial;
+	text-decoration-color: initial;
+}
+
+button, input, textarea {
+	font-family: GothamRounded;
+	-webkit-appearance: none;
+}
+
+.materialButton {
+	background-image: none;
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
+	border-top-width: initial;
+	border-right-width: initial;
+	border-bottom-width: initial;
+	border-left-width: initial;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: initial;
+	border-right-color: initial;
+	border-bottom-color: initial;
+	border-left-color: initial;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	min-width: 50px;
+	color: rgb(119, 119, 119);
+	cursor: pointer;
+	text-transform: uppercase;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	font-size: 14px;
+	outline-color: initial;
+	outline-style: none;
+	outline-width: initial;
+	display: inline-block;
+}
+
+	.materialButton, .materialButton:hover {
+		text-decoration-line: none;
+		text-decoration-style: initial;
+		text-decoration-color: initial;
+	}
+
+button {
+	outline-color: initial;
+	outline-style: initial;
+	outline-width: 0px;
+}
+
+.openComments {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.openComments {
+	margin-top: 0px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: right;
+}
